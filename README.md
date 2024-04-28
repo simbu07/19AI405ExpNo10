@@ -1,6 +1,6 @@
 # ExpNo:10 Implementation of Classical Planning Algorithm
-### DEVELOPED BY: M.PAVITHRA
-### REG NO: 212222100032
+### DEVELOPED BY: Silambarasan K
+### REG NO: 212221230101
 ## AIM:
 To Implementation of Classical Planning Algorithm
 ## Algorithm:
