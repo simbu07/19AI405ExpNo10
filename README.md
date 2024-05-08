@@ -1,4 +1,5 @@
-## ExpNo:10 Implementation of Classical Planning Algorithm
+<h2 align=center>ExpNo:10 Implementation of Classical Planning Algorithm</h2>
+
 #### DEVELOPED BY: Silambarasan K
 #### REG NO: 212221230101
 #### Date: 26/04/2024
