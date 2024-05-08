@@ -1,9 +1,10 @@
-# ExpNo:10 Implementation of Classical Planning Algorithm
-### DEVELOPED BY: Silambarasan K
-### REG NO: 212221230101
-## AIM:
+## ExpNo:10 Implementation of Classical Planning Algorithm
+#### DEVELOPED BY: Silambarasan K
+#### REG NO: 212221230101
+#### Date: 26/04/2024
+### AIM:
 To Implementation of Classical Planning Algorithm
-## Algorithm:
+### Algorithm:
 <ol>
   <li>Define the initial state</li>
   <li>Define the goal state</li>
@@ -12,7 +13,7 @@ To Implementation of Classical Planning Algorithm
   <li>Print the plan</li>
 </ol>
 
-## Example - 1
+### Example - 1
 ```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
@@ -25,11 +26,11 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-## Output:
+### Output:
 ```
 ['move_A_to_B']
 ```
-## Example - 2
+### Example - 2
 ```
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
@@ -43,15 +44,15 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-## Output:
+### Output:
 ```
 ['move_A_to_B', 'move_B_to_C']
 ```
 
-## Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
+### Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 
-## PROGRAM:
+### PROGRAM:
 ```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
@@ -121,5 +122,5 @@ plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 '''
 ```
-## RESULT:
+### RESULT:
 Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
